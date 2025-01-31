@@ -2,11 +2,15 @@ const { onRequest } = require("firebase-functions/v2/https");
 const logger = require("firebase-functions/logger");
 
 const express = require('express');
+const cors = require("cors");
 const nodemailer = require('nodemailer');
 const emailValidator = require("email-validator");
+
 const htmlBuilder = require("./htmlBuilder");
 
 const app = express();
+
+app.use(cors({ origin: true }));
 
 const sender = {
     email: '',
