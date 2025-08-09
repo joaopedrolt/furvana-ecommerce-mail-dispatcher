@@ -1,7 +1,5 @@
 <h2 align="center">Serviço de Envio de E-mails - Furvana Ecommerce</h2>
 
-# Serviço de Envio de E-mails - Furvana Ecommerce
-
 Este repositório contém um serviço independente responsável pelo envio de e-mails automáticos para o Furvana Ecommerce, como confirmação de pedidos e validação de e-mail (OTP).
 
 O serviço utiliza Firebase Functions, Express e Nodemailer para realizar o disparo dos e-mails de forma segura e eficiente.
